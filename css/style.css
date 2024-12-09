@@ -226,6 +226,9 @@ h2{
     font-weight: 600;
     color: rgba(14, 14, 14, 100%);
 }
+.benefactors p, strong {
+    color: #575757 !important;
+}
 strong{
     color: #575757 !important;
 }
