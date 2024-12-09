@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #575757;
+    font-weight: 400;
+}
+p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+header {
+    background-color: #274f13;
+}
+header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-nav {
+    margin-left: 0; /* Ensure no unintended margins */
+}
+.contact_bg {
+    background: #37761d;
+    padding: 5px 25px; /* Adds vertical spacing */
+}
+.icons {
+    gap: 30px; /* Space between icons */
+}
+.icons .bi {
+    background: #a4da8d;
+    padding: 4px 6px; /* Adjust padding for better spacing */
+    margin: 0; /* Remove excessive margins */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #37761d;
+}
+.bi-caret-left-fill, .bi-caret-right-fill {
+    color: #000;
+}
+.banner_bg {
+    display: flex;
+    gap: 35px;
+    padding: 80px 50px;
+    background: url("/images/banner-bg.jpeg") no-repeat center center / cover;
+    height: auto;
+}
+.banner_text {
+    flex-basis: 22%;
+    flex-grow: 0;
+    gap: 20px;
+    background: rgba(39, 79, 19, 0.7);
+    padding: 20px 20px 50px 20px;
+}
+.launch_bg{
+    background: #6aa74f;
+    color: #fff;
+}
+.banner_carousel{
+    flex-basis: 45%;
+    flex-grow: 0;
+}
+.carousel-indicators{
+    position: relative;
+    margin-top: 15px;
+}
+.carousel-indicators button {
+    background-color: #202020 !important; /* Change the dot color */
+    border: none; /* Remove any border if present */
+    opacity: 0.7; /* Optional: Adjust opacity for a subtle look */
+}
+.carousel-indicators button.active {
+    background-color: #000000; /* Change color for the active dot */
+    opacity: 1; /* Make the active indicator fully visible */
+}
+.carousel-control-prev, 
+.carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pt-25{
+    padding-top: 25px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+h2{
+    font-size: 42px;
+    font-weight: 500;
+    text-transform: none;
+    color: #0e0e0e;
+}
+.about-us .card_bg{
+    background: #eeeeee;
+    width: 100%;
+}
+.about-us .card{
+    margin-right: 30px;
+    border: none;
+}
+.about-us .card-title{
+    color: rgba(55,118,29,1.0);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.about-us .card-img-top{
+    height: 250px;
+    object-fit: cover;
+    border: none;
+    border-top-left-radius: 0;
+}
+.about-us .card-body{
+    padding: 20px;
+    border: 1px solid #a3da8d;
+    border-top: none;
+}
+.about-us .card-title{
+    color: rgba(55,118,29,1.0);
+}
+.about-us .card-text{
+    color: #575757;
+    line-height: 1.4;
+    margin: 20px 0 30px 0;
+}
+.our-services .card-body{
+    padding: 0;
+}
+.our-services .card{
+    padding: 20px 15px;
+    margin: 0 30px 25px 0;
+    border: none;
+    transition: box-shadow 0.3s ease;
+}
+.our-services .card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1);
+    
+}
+.our-services .card_bg{
+    background: #FAFAFA;
+}
+.card_bg{
+    background: #FAFAFA;
+}
+.our-services .card-img-top{
+    width:80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.our-services .card-title{
+    color: #0e0e0e;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.our-services .card-text{
+    color: #575757;
+    line-height: 1.4;
+    margin: 20px 0 30px 0;
+}
+.donate_bg{
+    background-image: linear-gradient(to bottom, rgba(147, 196, 125, 1), rgba(105, 168, 79, 1)) !important;
+}
+.donate-text{
+    padding: 0 25px 25px 25px;
+    margin: 0 25px 25px 25px;
+}
+.donate-text h2{
+    margin-bottom: 20px;
+}
+.donate-button{
+    background: #5c8b48;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 25px;
+}
+.benefactors_bg{
+    background: rgba(217, 234, 211, 1);
+}
+.benefactors .card{
+    border: none;
+    margin-right: 30px;
+}
+.benefactors .card-img-top{
+    border-radius: 4px !important;
+}
+.benefactors h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 100%);
+}
+strong{
+    color: #575757 !important;
+}
+.testimonial img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #b45f06;
+    padding: 2px;
+    border-radius: 50%;
+}
+.testimonial p{
+    text-align: start;
+    color: #0e0e0e;
+}
+.testimonial strong{
+    color: #0e0e0e;
+}
+.testimonial span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.testimonial i{
+    font-size: 72px;
+    color: #e8ceb3; 
+}
+.testimonial_content{
+    padding: 0 15px;
+}
+.custom-nav-buttons .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; /* Rounded buttons */
+    border: 1px solid rgb(44, 96, 22);
+}
+.custom-nav-buttons .btn i {
+    font-size: 18px; /* Icon size */
+    vertical-align: middle; /* Align icons with text */
+    color: rgb(44, 96, 22);
+}
+.custom-nav-buttons .btn:hover {
+    background-color: #e8ceb3; /* Hover background color */
+    color: white; /* Hover text color */
+}
+.signup{
+    background: rgba(238, 238, 238, 1);
+    overflow-x: hidden;
+}
+.signup p{
+    color: #0e0e0e;
+}
+.signup img{
+    max-width: 100%;
+    border-radius: 30px;
+}
+label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c6016;
+    padding-bottom: 5px;
+}
+.signup input{
+    border: 1px solid #B9D1CD;
+    padding: 12px;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.signup button{
+    background: #5c8b48;
+    border: 1px solid #5c8b48;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.footer{
+    background-color: #274e13;
+}
+.footer-row-1{
+    padding: 80px 1rem;
+}
+.footer img{
+    padding-bottom: 50px;
+}
+.footer p, strong{
+    color:#fff !important;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+hr{
+    color: #fff;
+}
+.footer-copyright{
+    border-top: 1px solid #5b9289;
+    padding: 20px 0;
+}
+.copyright p, .policy p{
+    font-size: 13px !important;
+}
+.policy{
+    text-align: right;
+}

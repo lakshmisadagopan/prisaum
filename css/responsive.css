@@ -1,0 +1,136 @@
+/* Responsive Design */
+@media (max-width: 991px) {
+.navbar-nav {
+    text-align: center;
+}
+.navbar-toggler{
+    margin-left: auto;
+}
+}
+@media (min-width: 992px) {
+.navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+}
+}
+
+@media (max-width: 576px) { /* Small screens */
+    .banner_text, .banner_carousel {
+        flex-basis: 100% !important; /* Full-width for small devices */
+    }
+    .banner_carousel{
+        padding: 0 !important;
+    }
+    .banner_bg {
+        padding: 25px 20px !important;
+        gap: 0px !important;
+        flex-wrap: wrap;
+    }
+    .about-us-small{
+        padding: 40px 0 !important;
+    }
+    .about-us .card{
+        margin-right: 15px !important;
+        border: none;
+        text-align: center;
+    }
+    .our-services{
+        text-align: center;
+    }
+    .our-services .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto !important;
+    }
+    .footer-row-1, .footer-copyright {
+        text-align: center; /* Center text on mobile screens */
+    }
+    .footer .icons {
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .footer p{
+        margin-bottom: 5px !important;
+    }
+    .footer-row-1{
+        padding: 40px 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_text {
+        flex-basis: 30%;
+        flex-grow: 0;
+    }
+    .banner_carousel{
+        flex-basis: 60%;
+        flex-grow: 0;
+    }
+    .banner_bg {
+        padding: 80px 0px;
+        gap: 25px;
+    }
+    .about-us .card-group{
+        padding: 0 !important;
+    }
+    .about-us .card{
+        margin-right: 20px !important;
+        margin-bottom: 20px !important;
+        border: none;
+        flex-basis: 47%;
+        flex-grow: 0;
+    }
+    .donate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .donate img{
+        max-width: 95%;
+        padding-bottom: 30px;
+    }
+    .donate-small{
+        padding: 50px 0 !important;
+    }
+    .donate-text{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .donate-text h2{
+        font-size: 28px;
+    }
+    .donate-button{
+        width: 100%;
+    }
+    .benefactors-pt{
+        padding-top: 40px !important;
+    }
+    .benefactors .card {
+        border: none;
+        margin: 0px 0px 15px 0px !important;
+    }
+    .signup{
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    .signup h2, p{
+        text-align: center !important;
+    }
+    .signup img{
+        max-width: 100%;
+        padding: 20px 0px;
+    }
+    .signup button{
+        width: 100%;
+    }
+    .footer-row-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
